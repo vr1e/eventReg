@@ -22,16 +22,6 @@
                         <h2 ng-bind-template="{{event.name | uppercase}} {{event.date | date:'mediumDate'}}"></h2>
                     </div>
                 </div>
-
-                <button class="btn" ng-disabled="buttonDisabled">Disabled</button>
-
-                <div>{{[1,2,93][2]}}</div>
-
-                <div ng-bind-html-unsafe="snippet">some title</div>
-                <div ng-bind-html="snippet">some title</div>
-
-                <h2 ng-show="boolValue">Show This</h2>
-                <h2 ng-hide="boolValue">Hide This</h2>
                 <div class="row">
                     <div class="span3">
                         <div><strong>Date:</strong> {{event.date | date}}</div>
@@ -45,9 +35,6 @@
                         </address>
                     </div>
                 </div>
-
-                <div>{{ 3 | currency}}</div>
-                <div>{{ {a:3, b:"hi", c:'{}'} | json }}</div>
 
                 <hr />
 
