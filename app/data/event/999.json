@@ -1,0 +1,12 @@
+{
+    "name": "New Event",
+    "date": "05/05/2017",
+    "time": "9am",
+    "location": {
+        "address": "Worst st. 123",
+        "city": "New York",
+        "province": "NY"
+    },
+    "imageUrl": "http://lorempixel.com/200/300/",
+    "id": 999
+}
