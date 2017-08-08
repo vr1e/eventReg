@@ -13,6 +13,5 @@ eventsApp.controller('CacheSampleController',
         $scope.getCacheStats = function() {
             return myCache.info();
         };
-
     }
 );
