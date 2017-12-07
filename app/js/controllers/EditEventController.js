@@ -11,12 +11,11 @@ eventsApp.controller('EditEventController',
 				eventData.save(event)
 					.$promise
 					.then(function(response) {
-							console.log('success', response)
-						},
-						.catch(function(response) {
-							console.log('failure', response)
-						});
-					);
+						console.log('success', response)
+					})
+					.catch(function(response) {
+						console.log('failure', response)
+					});
 			}
 		};
 		$scope.cancelEdit = function() {
